@@ -1,0 +1,20 @@
+<h1>Convert</h1>
+
+    <form #changeForm="ngForm" (ngSubmit)="getConvert()">
+          <div class="form-group">
+                <div class="form-group">
+                    <input [(ngModel)]="change.ingreso" type="number" min="0" id="ingreso" name="ingreso" #ingreso="ngModel" required>
+                </div>
+
+                <div class="alert alert-danger" *ngIf="ingreso.invalid && (ingreso.dirty || ingreso.touched)">
+                    <div *ngIf="ingreso.errors.required">
+                      El campo es requerido
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input [(ngModel)]="change.salida" type="text" id="salida" name="salida" disabled>
+                </div>
+              </div>
+              <button type="submit" [disabled]="!changeForm.form.valid">Ingreso</button>
+    </form>
