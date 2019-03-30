@@ -1,2 +1,2 @@
 # ejercicio-conversion-moneda
-Ejercicio técnico
+Ejercicio técnico para Belatrix
