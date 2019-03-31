@@ -125,6 +125,14 @@ button:hover{
     transform: scale(1.04);
 }
 
+
+/*---------------------FOOTER-------------------------*/
+footer{
+    padding: 0 11%;
+    font-family: 'Roboto', sans-serif;
+    font-size:0.8vw;
+}
+
 footer .col{
     width:25%;
     display: inline-block;
@@ -132,6 +140,7 @@ footer .col{
 
 footer ul li {
     list-style: none;
+    margin: 1vw 0;
 }
 
 footer ul li a{
