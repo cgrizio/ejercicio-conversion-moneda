@@ -2,8 +2,6 @@ import { Component, OnInit, Input } from '@angular/core';
 
 import { ConverterService } from '../../converter.service';
 import { Quote } from '../../models/quote';
-import { Rates } from '../../models/rates';
-import { first } from 'rxjs/operators';
 import { Change } from '../../models/change';
 import { MoneyPipe } from '../pipes/money.pipe';
 
